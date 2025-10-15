@@ -1,0 +1,45 @@
+server:
+  port: 5000
+
+spring:
+  application:
+    name: captcha-service
+  
+  # Redis Configuration
+  redis:
+    host: localhost
+    port: 6379
+    database: 1
+    timeout: 2000ms
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+  
+  # Cache Configuration
+  cache:
+    type: redis
+    redis:
+      time-to-live: 180000  # 3 minutes in milliseconds
+
+# CAPTCHA Configuration
+captcha:
+  ttl: 180  # seconds
+  default-difficulty: L1
+  rate-limit:
+    requests-per-minute: 60
+
+# Actuator Configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    export:
+      prometheus:
+        enabled: true
