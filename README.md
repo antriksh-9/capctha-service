@@ -76,6 +76,8 @@ This will:
 `
 
 ## 📡 API Documentation
+
+### Documentation URL: https://documenter.getpostman.com/view/29968557/2sB3QQJ829
 ### Base URL
 `http://localhost:5000
 `
