@@ -9,44 +9,44 @@ Stack: Spring Boot 3.x, Java 17/21, Redis
 ## ✨ Features
 ### ✅ Three Difficulty Levels:
 
-L1: Single-digit arithmetic (0-9)
+- L1: Single-digit arithmetic (0-9)
 
-L2: Two-digit arithmetic (10-99)
+- L2: Two-digit arithmetic (10-99)
 
-L3: Simple algebraic expressions (e.g., "2x + 4 = 10, find x")
+- L3: Simple algebraic expressions (e.g., "2x + 4 = 10, find x")
 
 ### ✅ Dual Format Support:
 
-Text-based questions
+- Text-based questions
 
-Base64 PNG image generation
+- Base64 PNG image generation
 
 ### ✅ Security Features:
 
-Unique CAPTCHA IDs with 3-minute TTL
+- Unique CAPTCHA IDs with 3-minute TTL
 
-One-time token usage
+- One-time token usage
 
-IP-based rate limiting (60 requests/minute)
+- IP-based rate limiting (60 requests/minute)
 
-Redis-backed distributed caching
+- Redis-backed distributed caching
 
 ### ✅ Production Ready:
 
-Health check endpoints
+- Health check endpoints
 
-Horizontal scaling support
+- Horizontal scaling support
 
-Docker containerization
+- Docker containerization
 
-Comprehensive error handling
+- Comprehensive error handling
 
 ## 🛠️ Tech Stack
-Framework -> Spring Boot->	3.2.0+
-Language ->	Java ->	17 or 21
-Cache	-> Redis ->	7.x
-Build Tool	-> Maven ->	3.8+
-Rate Limiting ->	Bucket4j -> 8.15.0
+- Framework -> Spring Boot->	3.2.0+
+- Language ->	Java ->	17 or 21
+- Cache	-> Redis ->	7.x
+- Build Tool	-> Maven ->	3.8+
+- Rate Limiting ->	Bucket4j -> 8.15.0
 
 ## 🚀 Installation
 ### Step 1: Clone the Repository
